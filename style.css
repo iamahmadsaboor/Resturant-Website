@@ -353,7 +353,7 @@
 
 .sleft2{
   position: absolute;
-  right: 25px;
+  /* right: 25px; */
   width: 7em;
   top: 195em;
   height: 5em;
