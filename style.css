@@ -1,0 +1,521 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* Whole Div Include Navbar & Home Section */
+.navv {
+  background: url(./Assets/homebg.png) center center no-repeat;
+  height: 42em;
+  width: 100%;
+  /* background-size:110em; */
+  background-position: 0em;
+  color: rgb(255, 255, 255);
+}
+
+/* Logo #f6eedf */
+
+.logo {
+  width: 65px;
+  height: 65px;
+  /* background-color: aqua; */
+}
+
+/* Navbar Class */
+
+.navbar {
+  background-image: linear-gradient(
+    3deg,
+    rgba(0, 0, 0, 0) 0%,
+    #000000 85%,
+    #000000 100%
+  );
+  width: 100%;
+  /* background-color: rebeccapurple; */
+  height: 6.5em;
+}
+/* Navbar Links */
+.nav-link {
+  color: rgb(248, 250, 248);
+  font-family: "Poppins", sans-serif;
+  /* font-weight: bold; */
+  font-size: 1.25em;
+}
+/* Home Section Text Div */
+.main {
+  margin-top: 2em;
+  font-family: "Poppins", sans-serif;
+  margin-right: 3em;
+  height: 120em;
+}
+
+/* Garbage */
+@media screen and (max-width: 760px) {
+  .navv {
+    background-position: top;
+  }
+  .main {
+    margin-top: 12em;
+    font-family: "Poppins", sans-serif;
+    margin-right: 2em;
+  }
+}
+/* Discount Heading */
+.main h1 {
+  font-size: 4.8em;
+  /* margin-right: 6em; */
+  font-weight: bolder;
+}
+.main p {
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  /* margin-right: 25em; */
+}
+
+/* Main Section Button */
+
+.bttnn {
+  /* background-color:  rgb(255 166 0); */
+  padding: 0.7em 2em;
+  border-radius: 1.2em;
+  color: white;
+
+  text-decoration: none;
+}
+.bttn {
+  background-color: #f64b3c;
+  padding: 0.7em 3em;
+  border-radius: 1.2em;
+  color: white;
+
+  text-decoration: none;
+}
+
+/*  Second Section Of Our Chef */
+.chef {
+  background-color: #f6eedf;
+  color: #f64b3c;
+  height: 29em;
+}
+/* Chef Heading */
+.chefh1 {
+  text-align: center;
+  padding-top: 1em;
+}
+/* Chef Paragraph */
+
+.chefp {
+  margin: 0em 14em;
+  text-align: center;
+}
+/* Main Images of Cards Start*/
+.fulcardd {
+  margin-top: 0em;
+  padding-bottom: 3em;
+}
+
+.h-100 {
+  border: none;
+  background-color: #f6eedf;
+}
+.card-img-top {
+  margin: 0px auto;
+  height: 8em;
+  width: 9em;
+  border-radius: 6em;
+}
+.card-text,
+.card-title {
+  text-align: center;
+}
+
+/* Main Images of Cards End*/
+/* Chef Side Images Start */
+
+.left1st {
+  display: inline;
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  margin: -6em 0em 3em 11em;
+  opacity: 60%;
+}
+.left2nd {
+  display: inline;
+  float: left;
+  position: absolute;
+  margin-top: 9em;
+  width: 7em;
+  height: 7em;
+  opacity: 60%;
+}
+.bottom1st {
+  position: absolute;
+  margin-top: 13em;
+  width: 6em;
+  height: 4em;
+  margin-left: 15em;
+  opacity: 60%;
+}
+.bottom2nd {
+  position: absolute;
+  margin-top: 13em;
+  width: 6em;
+  height: 4em;
+  margin-left: 39em;
+  opacity: 60%;
+}
+.right1st {
+  position: absolute;
+  margin-top: -3em;
+  width: 7em;
+  height: 5em;
+  margin-left: 63em;
+  opacity: 60%;
+}
+.right2nd {
+  position: absolute;
+  margin-top: 6em;
+  width: 7em;
+  height: 4em;
+  margin-left: 68em;
+  opacity: 60%;
+}
+
+/* Chef Side Images End */
+
+.thrdd {
+  background-color: #f64b3c;
+}
+.thrddd {
+  background-color: #f64b3c;
+}
+.sec3img {
+  border-radius: 11rem;
+  height: 18em;
+  margin-top: 2em;
+  width: 20em;
+}
+
+.thrdtext {
+  margin-top: 4em;
+  flex: 0 0 auto;
+  width: 49.666667%;
+  color: white;
+}
+.thrdtext p {
+  font-size: 30px;
+}
+
+.bttnnn {
+  color: orangered;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 0.35em 2em;
+  border: none;
+  font-weight: bold;
+  border-radius: 1.2em;
+}
+
+/* Fourth Section */
+
+.fourth {
+  color: black;
+  background-color: #f6eedf;
+  height: 31em;
+}
+.fourthtext {
+  margin-top: 4em;
+  flex: 0 0 auto;
+  width: 48.666667%;
+  color: #f64b3c;
+}
+.fourthtext p {
+  font-size: 30px;
+}
+
+.btttnnn {
+  background-color: orangered;
+  color: whitesmoke;
+  text-align: center;
+  padding: 0.4em 2em;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 1.2em;
+}
+
+/* Above Images */
+
+.sec4burger {
+  position: absolute;
+  margin-left: 34em;
+  width: 7em;
+  height: 6em;
+}
+.sec4left {
+  position: absolute;
+  left: 0em;
+}
+
+.sec4btm {
+  position: absolute;
+  margin-top: 4em;
+  left: 15em;
+  height: 4em;
+  width: 4em;
+}
+
+.sec4right {
+  position: absolute;
+  right: 5em;
+  height: 6em;
+  margin-top: 0em;
+}
+.sec4right2 {
+  position: absolute;
+  right: 7em;
+  height: 7em;
+  margin-top: 17em;
+}
+
+.sec4btm2 {
+  position: absolute;
+  margin-top: 3em;
+  left: 38em;
+  height: 4em;
+  width: 4em;
+}
+
+/* Heaading Of Section 3 & 4 */
+.sec3-4 {
+  font-size: 75px;
+}
+
+/* Fifth Section of Stastics */
+.Statistics {
+    height: 34em;
+  margin-top: 0.5em;
+  padding-bottom: 5em;
+  background-color: orangered;
+}
+.statisticstext {
+    padding: 1em;
+  text-align: center;
+  color: white;
+}
+.statisticstext h1 {
+  font-size: 62px;
+  padding-top: 0.5em;
+  margin-bottom: 9px;
+}
+.statisticstext p {
+  font-size: 25px;
+}
+
+.curd {
+  background-color: orangered;
+  color: white;
+  padding-top:5em;
+  padding-bottom: 5em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  border: 1px solid white;
+  border-radius: 155px;
+}
+
+
+.sixth{
+    padding-top: 5em;
+    background-color: #f6eedf;
+    height: 45em;
+    color: orangered;
+}
+
+.immmm-img{
+ 
+  margin-top: 5px;
+}
+
+.sbtn{
+  background-color: #f64b3c;
+  color: white;
+  border-radius: 1em;
+}
+
+.srightf{
+  right: 15em;
+  position: absolute;
+  width: 5em;
+  height: 5em;
+}
+
+.sleft2{
+  position: absolute;
+  right: 25px;
+  width: 7em;
+  top: 195em;
+  height: 5em;
+
+}
+
+.bsixb2{
+  position: absolute;
+  left: 0px;
+  margin-top: 31em;
+  width: 5em;
+}
+
+.sleft1{
+  position: absolute;
+  left: 1em;
+  margin-top: 2em;
+  height: 5em;
+  width: 5em;
+  }
+
+.left3{
+  position: absolute;
+  margin-top: 0em;
+  left: 17em;
+  width: 4em;
+  height: 4em;
+  
+}
+/* Seventh section */
+
+.seventh{
+height: 40em;
+display: flex;
+align-items: center;
+justify-content: center;
+background:url('./Assets/image.png');
+color: white;
+  
+
+}
+.sevenp{
+  font-size: 36px;
+  margin: 0.2 3em;
+  text-align: center;
+  /* margin-top: 4em; */
+}
+.sevenh{
+  text-align: center;
+  margin-top: 1em;
+  font-size: 45px;
+}
+
+
+
+/* Eiggth */
+
+.eigth{
+  background-color: #f6eedf;
+  height: 31em;
+  color: orangered;
+  text-align: center;
+}
+
+.eigthh{
+  padding-top: 1em;
+  font-size: 75px;
+  padding-bottom: 6px;
+}
+.eigthp{
+  font-size: 35px;
+
+}
+.pplace{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 22px;
+  padding-right: 22em;
+  padding-left: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: transparent;
+}
+
+.pplacebtn{
+  padding: 8px;
+  color: white;
+  background-color: #f64b3c;
+  text-align: center;
+  padding-right: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -6px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 16px;
+  text-decoration: none;
+}
+.elf{
+position: absolute;
+margin-top: 0.5em;
+left: 13em;
+height: 5em;
+
+
+}
+.els{
+  position: absolute;
+  margin-top: 10em;
+  left: 3em;
+}
+
+.ebf{
+  position: absolute;
+  margin-top: 22em;
+  left: 16em;
+  height: 7em;
+}
+.ebs{
+  position: absolute;
+  margin-top: 24em;
+  left: 35em;
+  height: 5em;
+}
+.ebt{
+  position: absolute;
+  right: 15em;
+  height: 6em;
+  margin-top: 24em;
+}
+.ers{
+  position: absolute;
+  right: 9em;
+  height: 5em;
+  margin-top: 14em;
+}
+.erf{
+  position: absolute;
+  right: 13em;
+  height: 6em;
+  margin-top: 1em;
+}
+
+.opac{
+  opacity: 65%;
+}
+
+/* Footer */
+.footer{
+  padding-top: 4em;
+  color: whitesmoke;
+  background-color: #282531;
+  padding-bottom: 3rem;
+
+}
+.pppp{
+  margin-bottom: 0px;
+}
+.linkk{
+ padding-left: 1em;
+  margin-left: 16em;
+}
+.links li a{
+  text-decoration: none;
+  color: whitesmoke;
+}
