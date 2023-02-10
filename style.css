@@ -385,15 +385,25 @@
 }
 /* Seventh section */
 
+
+.conny{
+  background-image:url('./Assets/ooo.png');
+  width: 100%;
+  
+}
+
 .seventh{
-height: 40em;
+  height: 40em;
 display: flex;
 align-items: center;
 justify-content: center;
-background:url('./Assets/image.png');
 color: white;
-  
+}  
+.containery{
 
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .sevenp{
   font-size: 36px;
@@ -403,8 +413,10 @@ color: white;
 }
 .sevenh{
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
+  right: 11em;
   font-size: 45px;
+  position: absolute;
 }
 
 
